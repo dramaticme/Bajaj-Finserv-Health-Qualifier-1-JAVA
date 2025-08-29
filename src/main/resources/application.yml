@@ -1,7 +1,7 @@
 candidate:
-  name: "John Doe"
-  regNo: "REG12347"
-  email: "john@example.com"
+  name: "Your Full Name"  # Replace with your actual name
+  regNo: "YOUR_REG_NUMBER"  # Replace with your actual registration number
+  email: "your-email@domain.com"  # Replace with your actual email
 
 healthrx:
   baseUrl: "https://bfhldevapigw.healthrx.co.in"
@@ -9,6 +9,15 @@ healthrx:
   fallbackSubmitPath: "/hiring/testWebhook/JAVA"
   # If (and only if) the API expects Bearer prefix, set to true
   useBearerPrefix: false
+
+# Database configuration (move credentials here)
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/students"
+    username: "root"
+    password: "Sakshi@310"  # Move your password here
+
 logging:
   level:
     root: INFO
+    com.fastwebhook: DEBUG  # More detailed logging for your package
