@@ -1,0 +1,14 @@
+candidate:
+  name: "John Doe"
+  regNo: "REG12347"
+  email: "john@example.com"
+
+healthrx:
+  baseUrl: "https://bfhldevapigw.healthrx.co.in"
+  generatePath: "/hiring/generateWebhook/JAVA"
+  fallbackSubmitPath: "/hiring/testWebhook/JAVA"
+  # If (and only if) the API expects Bearer prefix, set to true
+  useBearerPrefix: false
+logging:
+  level:
+    root: INFO
