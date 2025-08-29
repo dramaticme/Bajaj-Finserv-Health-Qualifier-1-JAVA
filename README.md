@@ -1,4 +1,4 @@
-# 💚 Fast Webhook SQL Submission App – HealthRx Assignment
+# 💚 Fast Webhook SQL Submission App – HealthRx 
 
 **Welcome to your automated SQL submission Spring Boot app!**  
 This repository contains a **ready-to-run Spring Boot application** that automates the HealthRx SQL assignment workflow, ensuring you submit the correct SQL query via webhook securely using JWT.
